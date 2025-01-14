@@ -6,8 +6,8 @@ public class  FoodDeliveryApplication {
         Restaurant restaurant = new Restaurant();
         System.out.println("===================Welcome to Mr.Rak Store===================");
         // Add items to the menu
-        restaurant.addToMenu(new FoodItem("Burger", 8.99f, "Delicious beef burger", new String[]{"Beef", "Lettuce", "Cheese"}));
-        restaurant.addToMenu(new DrinkItem("Coke", 1.99f, "Chilled soft drink", "Medium"));
+        restaurant.addToMenu(new FoodItem("នំបញ្ចុក", 3.5f, "អាហារសុខភាព", new String[]{"សាច់នំ", "បន្លែ", "ទឹកសម្ល"}));
+        restaurant.addToMenu(new DrinkItem("ទឹកច្របាច់", 1.5f, "ភេសជ្ជៈធម្មជាតិ", "កណ្ដាល"));
 
         // View menu
         System.out.println("===================Our Menu===================");
@@ -18,8 +18,8 @@ public class  FoodDeliveryApplication {
 
         // Create an order
         Order order1 = new Order(99);
-        order1.addItem(new FoodItem("Pizza", 12.99f, "Cheesy pizza", new String[]{"Cheese", "Tomato", "Basil"}));
-        order1.addItem(new DrinkItem("Sprite", 1.99f, "Chilled soft drink", "Small"));
+        order1.addItem(new FoodItem("នំពោត", 2.5f, "រស់ជាតិពិសេស", new String[]{"ពោត", "ខ្ទិះដូង", "ទឹកដោះគោ"}));
+        order1.addItem(new DrinkItem("ទឹកម្នាស់", 1.5f, "រសជាតិជូរផ្អែម", "តូច"));
 
         System.out.println("===================New Order!!!===================");
 
